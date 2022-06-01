@@ -1,0 +1,256 @@
+css:
+html{
+    font-family: sans-serif;
+}
+    /* div {
+        border: 1px solid #000;
+    } */
+#header{
+    background-image: linear-gradient(to right bottom, #E3E9EE 0% 40%, #F89B72 40% 48%, #E38A63 48% 53%, #E3E9EE 53%);
+    width: 60%;
+    height: 600px;
+    margin: 70px 300px;
+}
+
+#header_card{
+    background-image: linear-gradient(to bottom right,#636b7a,#333b49);
+    width: 70%;
+    height: 460px; 
+   display: inline-block;
+   margin: 70px 100px;
+   position: relative;
+    
+
+}
+
+.text{
+    color: rgba(98,108,121,255);
+    font-size: 70px;    
+    position: absolute;
+    top: -60px;
+    position: relative;
+}
+
+.text_1{
+position: absolute;
+top: 90px;
+color: #e5926d;
+left: 20px;
+font-size: 12px;
+}
+.text_2{
+position: absolute;
+top: 110px;
+left: 20px;
+color: rgba(202,202,206,255);
+}
+.text_2::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    left: 3px;
+    bottom: -120px;
+    opacity: 0.1;
+}
+
+.text_3{
+    color: rgba(125,132,143,255);
+    position: absolute;
+    font-size: 12px;
+    bottom: 120px;
+    left: 20px;
+}
+
+.text_4{
+    color: rgba(255,255,255,255);
+    position: absolute;
+    font-size: 50px;
+    bottom: 35px;
+    left: 20px;
+}
+
+#header_Card{
+    position: relative;
+
+}
+
+.checkbox{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 400px;
+    display: flex;
+    
+}
+
+input[type='checkbox']{
+    background-color: rgba(74,82,96,255);
+}
+
+.checkbox_text{
+    color: rgba(109,113,124,255);
+    font-size: 13px;
+}
+
+#In_card{
+    position: absolute;
+    background-color:rgba(243,243,243,255);
+    width: 500px;
+    height: 300px;
+    top: 225px;
+    left: 650px;
+    
+}
+
+.search_icons{
+    display: inline-block;
+    width: 70%;
+}
+
+#In_card .search_icons .icons{
+    display: inline-block;
+    margin: 30px 0 30px 40px;
+}
+.icons::before{
+    opacity: 0.3;
+}
+
+
+.search_icons input#search{
+    opacity: 0.3;
+    text-transform: uppercase;
+    width: 50%;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.img_visa{
+    float: right;
+    margin-top: 20px;
+}
+.star {
+    width: 230px;
+    height: 50px;
+}
+.star-1{
+    width: 100%;
+    height: 50%;
+    float: right;
+    color: rgba(246,210,127,255);
+    text-align: center;
+}
+
+.star-1 > .star_1{
+    color: rgba(244,229,195,255);
+}
+.see-all {
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(202,202,206,255);
+}
+.bag {
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+.bag-1 {
+    width: 230px;
+    height: 100%;
+}
+.img-bag {
+    height: 100%;
+    width: 60%;
+    margin-left: 30px;
+}
+.thong-tin {
+    width: 270px;
+    height: 100%;
+    color: rgba(165,175,188,255);
+}
+
+.name{
+    height: 30%;
+    line-height: 0.5;
+}
+
+
+.name > .name_1{
+    font-size: 9px;
+}
+
+.name > .name_2{
+    font-size: 15px;
+    padding: -5px 0;
+}
+
+.card{
+    height: 30%;
+    line-height: 0.5;
+}
+.card_number{
+    font-size: 9px;
+}
+.card > .number_card{
+    font-size: 15px;
+}
+
+.timeSmall{
+    display: flex;
+}
+
+.expires{
+    width: 70%;
+    font-size: 10px;
+}
+
+.cvv{
+    width: 10%;
+    float: right;
+    font-size: 10px;
+    margin-left: 14px;
+}
+
+.timeandccv{
+    display: flex;
+    margin-top: 10px;
+    color: rgba(165,175,188,255);
+}
+.month{
+    width: 40%;
+}
+
+.down_1{
+    font-size: 12px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 15px;
+}
+
+.year{
+    width: 35%;
+}
+
+.ccv832{
+    width: 25%;
+}
+
+.buy{
+    background-image: linear-gradient(to bottom right,rgba(249,156,115,255),rgba(235,160,127,255));
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.buy>.buy_now{
+    font-size: 9px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 31px;
+    color: rgba(196,113,83,255);
+}
